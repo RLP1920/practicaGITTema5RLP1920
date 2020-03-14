@@ -34,8 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.listaAlumnos = new System.Windows.Forms.TextBox();
-            this.aluNota = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).BeginInit();
+            this.aluNota = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -93,9 +92,9 @@
             // 
             // aluNota
             // 
-            this.aluNota.Location = new System.Drawing.Point(306, 61);
+            this.aluNota.Location = new System.Drawing.Point(306, 58);
             this.aluNota.Name = "aluNota";
-            this.aluNota.Size = new System.Drawing.Size(74, 20);
+            this.aluNota.Size = new System.Drawing.Size(70, 20);
             this.aluNota.TabIndex = 7;
             // 
             // Form1
@@ -114,7 +113,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Alumnos";
-            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,7 +126,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox listaAlumnos;
-        private System.Windows.Forms.NumericUpDown aluNota;
+        private System.Windows.Forms.TextBox aluNota;
     }
 }
 
