@@ -36,6 +36,7 @@ namespace PracticaTema5RLP1920
 
     class Alumno
     {
+
         private string nombre;
         private int nota;
         public string Nombre
